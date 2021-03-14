@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dash = "*"
+pandas = "*"
+flask-sqlalchemy = "*"
+mysql-connector-python = "*"
+dash-bootstrap-components = "*"
+python-igraph = "*"
+flask-login = "*"
+gunicorn = "*"
+python-dotenv = "*"
+
+[dev-packages]
+faker = "*"
+pylint = "*"
+pylint-flask = "*"
+pipfile = "*"
+rope = "*"
+pylint-flask-sqlalchemy = "*"
+
+[requires]
+python_version = "3.8"
